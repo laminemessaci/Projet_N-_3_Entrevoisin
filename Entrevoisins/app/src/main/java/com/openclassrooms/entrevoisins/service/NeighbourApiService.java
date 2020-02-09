@@ -23,6 +23,30 @@ public interface NeighbourApiService {
     void deleteNeighbour(Neighbour neighbour);
 
     /**
+     * Add a Neighbour to FavoriteNeighbour
+     * @param neighbour
+     */
+    void addNeighbourFavorite(Neighbour neighbour);
+
+    /**
+     * boolean to check if Neighbour is favorite or No
+     * @param neighbour
+     * @return
+     */
+    Boolean isFavorite(Neighbour neighbour);
+
+    /**
+     * List of favorite Neighbours
+     * @return
+     */
+    List<Neighbour> getFavoriteNeighbour();
+
+    /**
+     * Delete from favorite Neighbour
+     */
+    void removeFavoriteNeighbour(Neighbour neighbour);
+
+    /**
      * Create a neighbour
      * @param neighbour
      */
