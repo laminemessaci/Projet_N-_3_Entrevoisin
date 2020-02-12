@@ -1,29 +1,69 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<android.support.constraint.ConstraintLayout
+<android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/fragment_detail"
+    android:id="@+id/Coordinator"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#E2E4E7"
-    android:orientation="vertical"
-    tools:context=".ui.neighbour.neighbour_detail.DetailFragment">
+    android:fitsSystemWindows="true">
+
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/ic_launcher"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:fitsSystemWindows="true">
+
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleMarginStart="48dp"
+            app:expandedTitleMarginEnd="64dp"
+            android:fitsSystemWindows="true">
+
+
+
+            <android.support.v4.widget.NestedScrollView
+                android:id="@+id/scroll"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:clipToPadding="false"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+
+                <android.support.constraint.ConstraintLayout
+                    android:id="@+id/fragment_detail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#E2E4E7"
+                    android:orientation="vertical"
+                    tools:context=".ui.neighbour.neighbour_detail.DetailFragment">
+
 
 
     <ImageView
         android:id="@+id/pictureNeighbour"
         android:layout_width="match_parent"
         android:layout_height="220dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="#69adb7" />
 
     <ImageView
         android:id="@+id/iv_back"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="29dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="24dp"
         android:src="@drawable/ic_arrow_back_white_24dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -223,5 +263,15 @@
 
     </android.support.v7.widget.CardView>
 
+              </android.support.constraint.ConstraintLayout>
 
-</android.support.constraint.ConstraintLayout>
+
+          </android.support.v4.widget.NestedScrollView>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
