@@ -16,14 +16,13 @@ Step 3 : Make local Unit Test for each function
 Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Prerequisites
+## Prerequisites
 You need Android Studio, about version built see on section "Built With" on Readme file below
 
-On Manifest xml :
-
+## On Manifest xml :
 <uses-permission android:name="android.permission.INTERNET" />
 
-About dependencies :
+## About dependencies :
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:28.0.0'
     implementation 'com.android.support:design:28.0.0'
@@ -46,7 +45,8 @@ About dependencies :
     androidTestImplementation 'com.android.support.test.espresso:espresso-contrib:3.0.2'
 
 
-Installing:
+## Installing:
+
 you had to use Android Studio to run this application. Because there are not the Apk installation.
 copy this link: "https://github.com/laminemessaci/Projet_N-_3_Entrevoisin"
 Open Android Studio file -> new --> Project from Version Control(Git) Paste the link you had copy on the appear windows, on first line test if it is ok (click on test button at right to ensure that is successful) you only have to do next button on each windows, and at the end done to have it.
@@ -70,37 +70,33 @@ About the note on pdf file name "note de cadrage.pdf" : "Développez une nouvel
                                        - Package com.openclassrooms.entrevoisins.service(test) : "NeighbourServiceTest.java"
 
                                          
-#For Android Test :
+## For Android Test :
 
 For the file NeighboursListTest.java :
 
 go to folder : Java/com/openclassrooms/entrevoisins/neighbours_list and open "NeighboursListTest.java", on the left side of "public class NeighboursListTest()" click on the both green button to run all the tests.
 
 
-#For Local Unit Test :
+## For Local Unit Test :
 
 For the file NeighboursServiceTest.java :
 
 go to folder : Java/com/openclassrooms/entrevoisins/service and open "NeighboursServiceTest", on the left side of "public class NeighbourServiceTest" click on the both green button to run all the tests.
 
 
-Deployment:
+## Deployment:
 
 Run on Microsoft Windows, it will be done on other system too.
 
-Built With
+## Built With
 Android Studio Version: 3.5.3 - To download the software --> https://developer.android.com/studio
 
 
-Versioning
+## Versioning
 I only use Github, git.
-
-
 Openclassroom - Project 3 base of project download - Openclassroom
 
-License
-This project is not with licensed under the MIT License, also see the LICENSE.md file for details, but no details for the moment
 
-Acknowledgments
+## Acknowledgments
 Inspiration : https://www.youtube.com Tutorial, https://stackoverflow.com Forum, https://antonioleiva.com/collapsing-toolbar-layout/,
 the mentors on openClassroom.
