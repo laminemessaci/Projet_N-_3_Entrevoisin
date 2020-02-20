@@ -58,7 +58,7 @@ Have a look on folder for Html test result: Entrevoisins\TestResult-NeighbourSer
 About the note on pdf file name "note de cadrage.pdf" : "Développez une nouvelle fonctionnalité pour l’application Entrevoisins Note de cadrage.pdf"          
 - Phase 1 : Functionality Development as the picture
                         Have a look on : 
-                                        - NeighbourDetail.java Activity, with the layout :  activity_neighbour_detail.xml
+                                        - NeighbourDetail.java Activity, with the layout :  fragment_detail.xml
                         
  - Phase 2 : Make 4 tests of Instrumented Tests
                         Have a look on : 
