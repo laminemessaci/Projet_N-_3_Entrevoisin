@@ -88,7 +88,7 @@ About the note on pdf file name "note de cadrage.pdf" : "Développez une nouvel
                                          
 ## For Android Test :
 
-For the file ___NeighboursListTest.java :
+For the file ___NeighboursListTest.java__ :
 
 go to folder : Java/com/openclassrooms/entrevoisins/neighbours_list and open ___NeighboursListTest.java__, on the left side of "public class __NeighboursListTest()__ click on the both green button to run all the tests.
 
