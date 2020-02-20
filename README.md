@@ -73,31 +73,31 @@ Have a look on folder for Html test result: Entrevoisins\TestResult-NeighbourSer
 About the note on pdf file name "note de cadrage.pdf" : "Développez une nouvelle fonctionnalité pour l’application Entrevoisins Note de cadrage.pdf"          
 - Phase 1 : Functionality Development as the picture
                         Have a look on : 
-                                        _DetaiFragmentl.java_ , with the layout :  fragment_detail.xml
+                                        ___DetaiFragmentl.java__ , with the layout : __fragment_detail.xml__
                         
  - Phase 2 : Make 4 tests of Instrumented Tests
                         Have a look on : 
-                                       - Package com.openclassrooms.entrevoisins(androidTest), and on folder neighbour_list :                                                         "NeighbourListTest.java" 
+                                       - Package com.openclassrooms.entrevoisins(androidTest), and on folder _neighbour_list :                                                         __NeighbourListTest.java__
                                            
                                           
                         
 - Phase 3 : Make 4 local Unit Test for each function
                       Have a look on : 
-                                       - Package com.openclassrooms.entrevoisins.service(test) : "NeighbourServiceTest.java"
+                                       - Package com.openclassrooms.entrevoisins.service(test) : ___NeighbourServiceTest.java__
 
                                          
 ## For Android Test :
 
-For the file NeighboursListTest.java :
+For the file ___NeighboursListTest.java :
 
-go to folder : Java/com/openclassrooms/entrevoisins/neighbours_list and open "NeighboursListTest.java", on the left side of "public class NeighboursListTest()" click on the both green button to run all the tests.
+go to folder : Java/com/openclassrooms/entrevoisins/neighbours_list and open ___NeighboursListTest.java__, on the left side of "public class __NeighboursListTest()__ click on the both green button to run all the tests.
 
 
 ## For Local Unit Test :
 
 For the file NeighboursServiceTest.java :
 
-go to folder : Java/com/openclassrooms/entrevoisins/service and open "NeighboursServiceTest", on the left side of "public class NeighbourServiceTest" click on the both green button to run all the tests.
+go to folder : Java/com/openclassrooms/entrevoisins/service and open __NeighboursServiceTest__, on the left side of "public class __NeighbourServiceTest__ click on the both green button to run all the tests.
 
 
 ## Deployment:
