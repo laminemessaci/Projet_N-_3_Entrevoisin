@@ -3,7 +3,7 @@
 Ce dépôt contient une mini-application pour le P3 du parcours **Grande École du Numérique**.
 
 Entrevoisins  
-https://user-images.githubusercontent.com/60298344/74930032-11384680-53dd-11ea-832d-3f2abebbf651.png
+![15543713165688_icon-above-font copie](https://user-images.githubusercontent.com/60298344/74930597-4c874500-53de-11ea-957b-a1ee759e9130.png)
 
 Project 3 Openclassroom
 
