@@ -52,21 +52,21 @@ You had to use Android Studio to run this application. Because there are not the
 Copy this link: https://github.com/laminemessaci/Projet_N-_3_Entrevoisin     
 Open Android Studio file -> new --> Project from Version Control(Git) Paste the link you had copy on the appear windows, on first line test if it is ok (click on test button at right to ensure that is successful) you only have to do next button on each windows, and at the end done to have it.  
 After, make sure you are on "app", choose your AVD manager device or choose your external device link with your computer and click on "Run".   
-On the application, you can see the different persons names on neighbours page, you can scroll it. when you click on one of this item, a new windows will open, you have more informations about him or her, and you will choose if you want to have this neighbour name on your favorite, you had to just click on the star below the image of the person, the star pass to yellow color. After that, when you ar going to favorite page, you can see that you have you neighbour that you had choose. On each page, if you want to delete the neighbours or the favorite, you had to click on the delete button at the end of each item you want.
-Running the tests   
-Have a look on folder for Html test result: Entrevoisins\html_test_result, contains the Test Results on Html Version
-About the note on pdf file name "note de cadrage.pdf" : "Développez une nouvelle fonctionnalité pour l’application Entrevoisins Note de cadrage.pdf"     
+On the application, you can see the different persons names on neighbours page, you can scroll it. when you click on one of this item, a new windows will open, you have more informations about him or her, and you will choose if you want to have this neighbour name on your favorite, you had to just click on the star below the image of the person, the star pass to yellow color. After that, when you ar going to favorite page, you can see that you have you neighbour that you had choose. On each page, if you want to delete the neighbours or the favorite, you had to click on the delete button at the end of each item you want   
+Running the tests      
+Have a look on folder for Html test result: Entrevoisins\TestResult-NeighbourServiceTest,TestResult-NeighboursListTest contains the Test Results on Html Version    
+About the note on pdf file name "note de cadrage.pdf" : "Développez une nouvelle fonctionnalité pour l’application Entrevoisins Note de cadrage.pdf"          
 - Phase 1 : Functionality Development as the picture
                         Have a look on : 
                                         - NeighbourDetail.java Activity, with the layout :  activity_neighbour_detail.xml
                         
- - Phase 2 : Make 4 tests of Instrumented Unit Tests
+ - Phase 2 : Make 4 tests of Instrumented Tests
                         Have a look on : 
                                        - Package com.openclassrooms.entrevoisins(androidTest), and on folder neighbour_list :                                                         "NeighbourListTest.java" 
                                            
                                           
                         
-- Phase 3 : Make local Unit Test for each function
+- Phase 3 : Make 4 local Unit Test for each function
                       Have a look on : 
                                        - Package com.openclassrooms.entrevoisins.service(test) : "NeighbourServiceTest.java"
 
