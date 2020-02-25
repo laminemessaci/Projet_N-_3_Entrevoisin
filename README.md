@@ -106,7 +106,6 @@ laminemessaci - Training work - laminemessaci
 
 Openclassroom - Project 3 base of project download - Openclassroom
 
-# Acknowledgments  
 
 # Inspiration :  
 https://www.youtube.com Tutorial, https://stackoverflow.com Forum, https://antonioleiva.com/collapsing-toolbar-layout/, the mentors on openClassroom.
