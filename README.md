@@ -45,17 +45,20 @@ You had to use Android Studio to run this application. Because there are not the
 
 Copy this link: https://github.com/laminemessaci/Projet_N-_3_Entrevoisin
 
-image_2
+![image_1](https://user-images.githubusercontent.com/60298344/75288668-194d1780-581d-11ea-8779-17e835ad7456.png)  
+![image_2](https://user-images.githubusercontent.com/60298344/75288695-22d67f80-581d-11ea-9948-5f87e7c5480a.png)      
+
 
 Open Android Studio file -> new --> Project from Version Control(Git) Paste the link you had copy on the appear windows, on first line test if it is ok (click on test button at right to ensure that is successful) you only have to do next button on each windows, and at the end done to have it
 
-image2
+![image_3](https://user-images.githubusercontent.com/60298344/75288690-21a55280-581d-11ea-8e72-003c67c13d86.png)  
 
-image_4
+![image_4](https://user-images.githubusercontent.com/60298344/75288693-223de900-581d-11ea-85c7-d174742b4455.png)   
 
 After, make sure you are on "app", choose your AVD manager device or choose your external device link with your computer and click on "Run".
 
-image_5
+
+![image_5](https://user-images.githubusercontent.com/60298344/75288694-223de900-581d-11ea-8851-59d7cdf44888.png)
 
 On the application, you can see the different persons names on neighbours page, you can scroll it. when you click on one of this item, a new windows will open, you have more informations about him or her, and you will choose if you want to have this neighbour name on your favorite, you had to just click on the star below the image of the person, the star pass to yellow color. After that, when you ar going to favorite page, you can see that you have you neighbour that you had choose. On each page, if you want to delete the neighbours or the favorite, you had to click on the delete button at the end of each item you want
 Running the tests
