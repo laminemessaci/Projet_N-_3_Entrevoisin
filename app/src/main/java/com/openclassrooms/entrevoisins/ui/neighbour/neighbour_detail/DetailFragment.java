@@ -3,12 +3,15 @@ package com.openclassrooms.entrevoisins.ui.neighbour.neighbour_detail;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
 
 import com.bumptech.glide.Glide;
 import com.openclassrooms.entrevoisins.R;
@@ -24,8 +27,8 @@ import butterknife.ButterKnife;
  */
 public class DetailFragment extends Fragment {
 
-    @BindView(R.id.neigbourhNameTitle)
-    TextView neighbourNameTitle;
+    @BindView (R.id.toolbar)
+    Toolbar toolbar;
     @BindView(R.id.neigbourName)
     TextView neighbourName;
     @BindView(R.id.pictureNeighbour)
@@ -34,8 +37,7 @@ public class DetailFragment extends Fragment {
     TextView social;
     @BindView(R.id.fab_favorite)
     FloatingActionButton fab_favorite;
-    @BindView(R.id.iv_back)
-    ImageView back;
+
 
     private NeighbourApiService mApiService;
     protected Neighbour mNeighbour;
@@ -61,7 +63,6 @@ public class DetailFragment extends Fragment {
         View view = inflater.inflate(R.layout.fragment_detail, container, false);
         ButterKnife.bind(this,view);
 
-        neighbourNameTitle.setText(mNeighbour.getName());
         neighbourName.setText(mNeighbour.getName());
         social.setText("www.facebook.fr/" + mNeighbour.getName());
 
@@ -72,23 +73,28 @@ public class DetailFragment extends Fragment {
 
         setFavoriteImage();
 
-        fab_favorite.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v){
-                setFabFavorite();
-            }
+        fab_favorite.setOnClickListener(v -> setFabFavorite());
+
+        toolbar.setNavigationOnClickListener (v -> {
+         this.getActivity ().finish ();
         });
 
 
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                getActivity().finish();
-            }
+        ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
+        ((AppCompatActivity)getActivity()).getSupportActionBar ().setDisplayHomeAsUpEnabled (true);
+
+        ((AppCompatActivity)getActivity()).getSupportActionBar ().setTitle (mNeighbour.getName ());
+
+        toolbar.setNavigationOnClickListener(v -> {
+            // back button pressed
+            getActivity().finish();
         });
+
 
         return view;
     }
+
+
 
     private void setFavoriteImage() {
         if (mApiService.isFavorite(mNeighbour)){
