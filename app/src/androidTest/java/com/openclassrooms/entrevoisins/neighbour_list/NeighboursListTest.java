@@ -101,7 +101,7 @@ public class NeighboursListTest {
                 .perform (RecyclerViewActions.actionOnItemAtPosition (POSITION_ITEM, click()));
 
         //then We check if textView neighbourNameTitle in DetailNeighbourActivity is displayed.
-        onView(withId(R.id.neigbourhNameTitle)).check(matches (isDisplayed ()));
+        onView(withId(R.id.neigbourName)).check(matches (isDisplayed ()));
     }
 
     /**
