@@ -2,8 +2,10 @@
 
 Ce dépôt contient une mini-application pour le P3 du parcours Grande École du Numérique.
 
-Entrevoisins
-15543713165688_icon-above-font copie
+Entrevoisins   
+![EntrevoisinIcon](https://user-images.githubusercontent.com/60298344/75289226-1868b580-581e-11ea-840d-c90a42983c6a.png)  
+
+
 
 Project 3 Openclassroom
 
