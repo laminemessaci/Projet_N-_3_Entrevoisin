@@ -62,7 +62,6 @@ public class DetailFragment extends Fragment {
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_detail, container, false);
         ButterKnife.bind(this,view);
-
         neighbourName.setText(mNeighbour.getName());
         social.setText("www.facebook.fr/" + mNeighbour.getName());
 
