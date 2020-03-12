@@ -81,7 +81,6 @@ public class DetailFragment extends Fragment {
 
         ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
         ((AppCompatActivity)getActivity()).getSupportActionBar ().setDisplayHomeAsUpEnabled (true);
-
         ((AppCompatActivity)getActivity()).getSupportActionBar ().setTitle (mNeighbour.getName ());
 
         toolbar.setNavigationOnClickListener(v -> {
@@ -89,10 +88,8 @@ public class DetailFragment extends Fragment {
             getActivity().finish();
         });
 
-
         return view;
     }
-
 
 
     private void setFavoriteImage() {
