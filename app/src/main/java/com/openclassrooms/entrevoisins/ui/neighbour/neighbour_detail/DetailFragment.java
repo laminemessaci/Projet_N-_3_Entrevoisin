@@ -78,7 +78,7 @@ public class DetailFragment extends Fragment {
          this.getActivity ().finish ();
         });
 
-
+         // add toolbar and back home
         ((AppCompatActivity)getActivity()).setSupportActionBar(toolbar);
         ((AppCompatActivity)getActivity()).getSupportActionBar ().setDisplayHomeAsUpEnabled (true);
         ((AppCompatActivity)getActivity()).getSupportActionBar ().setTitle (mNeighbour.getName ());
